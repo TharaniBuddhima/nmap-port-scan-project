@@ -14,3 +14,19 @@ nmap -sS scanme.nmap.org
 
 # UDP Scan
 nmap -sU scanme.nmap.org
+
+#Fast Scan
+nmap -F scanme.nmap.org
+
+#Ping Scan
+nmap -sn scanme.nmap.org
+
+#Scan port range
+nmap -p 1-1000 scanme.nmap.org
+
+#TCP Window port scan
+nmap -sW scanme.nmap.org
+
+#Aggressive scan
+nmap -A scanme.nmap.org
+
