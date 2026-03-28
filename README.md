@@ -51,6 +51,21 @@ nmap -sW scanme.nmap.org
 Aggressive scan
 nmap -A scanme.nmap.org
 
-
 ## Output
-Results saved in scan_results.txt
+Results saved in scan_results.txt, scan_day2.txt
+
+## Script Scan (NSE)
+
+Command:
+nmap -sC scanme.nmap.org
+
+Description:
+Uses Nmap Scripting Engine to gather detailed service information.
+
+## Vulnerability Scan
+
+Command:
+nmap --script vuln scanme.nmap.org
+
+Description:
+Runs vulnerability detection scripts to identify possible security issues.
