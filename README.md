@@ -21,34 +21,34 @@ This is my first cybersecurity project using Nmap in Kali Linux.
 
 ## Example Commands
 
-Basic scan
+Basic scan:
 nmap scanme.nmap.org
 
-Service detection
+Service detection:
 nmap -sV scanme.nmap.org
 
-OS detection
+OS detection:
 sudo nmap -O scanme.nmap.org
 
-TCP Scan
+TCP Scan:
 nmap -sS scanme.nmap.org
 
-UDP Scan
+UDP Scan:
 nmap -sU scanme.nmap.org
 
-Fast Scan
+Fast Scan:
 nmap -F scanme.nmap.org
 
-Ping Scan
+Ping Scan:
 nmap -sn scanme.nmap.org
 
-Scan port range
+Scan port range:
 nmap -p 1-1000 scanme.nmap.org
 
-TCP Window port scan
+TCP Window port scan:
 nmap -sW scanme.nmap.org
 
-Aggressive scan
+Aggressive scan:
 nmap -A scanme.nmap.org
 
 ## Output

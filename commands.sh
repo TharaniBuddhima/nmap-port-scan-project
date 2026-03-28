@@ -30,3 +30,8 @@ nmap -sW scanme.nmap.org
 #Aggressive scan
 nmap -A scanme.nmap.org
 
+#Script scan
+nmap -sC scanme.nmap.org
+
+#Vulnerability scan
+nmap --script vuln scanme.nmap.org
